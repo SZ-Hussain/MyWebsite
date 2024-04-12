@@ -8,16 +8,17 @@
 </head>
 <body>
     <header>
-        <span>Syed Zayeem Hussain</span>
-        <img src="#" alt="profile pic">
+        <div><span id="headerName"><span id="headerFirstName">S.</span> <span id="headerMiddleName">Zayeem</span> <br> <span id="headerLastName">Hussain</span></span></div>
+        <div><img id="mainProfilePic" src="img/profile pic.jpg" alt="profile pic"></div>
     </header>
     <nav>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Personal Projects</a></li>
-            <li><a href="#">Carreer</a></li>
-            <li><a href="#">Others</a></li>
+        <span id="menuIcon" onclick="RollUpMenu"><h1>M</h1></span>
+        <ul id="menuOptions">
+            <li id="menuOption1"><a class="active" href="#">Home</a></li>
+            <li id="menuOption2"><a class="notActive" href="#">Resume</a></li>
+            <li id="menuOption3"><a class="notActive" href="#">Projects</a></li>
+            <li id="menuOption4"><a class="notActive" href="#">Carreer</a></li>
+            <li id="menuOption5"><a class="notActive" href="#">Others</a></li>
         </ul>
     </nav>
     <main>Welcome to my page</main>

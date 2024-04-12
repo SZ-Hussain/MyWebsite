@@ -1,20 +1,82 @@
 
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     *{
-        margin: 1px;
-        padding: 2px;
         box-sizing: border-box;
     }
     body{
         display: grid;
-        grid-area:{
-            'header'
-            'nav'
-            'main'
-            'footer'
-        }
     }
-    header, nav, main, footer{
-        border: 1px solid grey;
+    header,nav,main,footer{
+        margin: 5px;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #headerFirstName{
+        font-size: 32px;
+    }
+    #headerMiddleName{
+        font-size: 32px;
+    }
+    #headerLastName{
+        font-size: 48px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    #mainProfilePic{
+        width: 180px;
+        height: 180px;
+        border-radius: 10% 40% 10% 40%;
+        margin-right: -15px;
+    }
+    nav{
+        background-color: #313131;
+        border-radius: 15px;
+    }
+    #menuIcon{
+        float: right;
+        margin-right: 15px;
+        margin-top: -5px;
+    }
+    #menuIcon h1{
+        margin-block-start: 0.7em;
+        margin-block-end: 0.6em;
+        color: white;
+    }
+    #menuOptions{
+        margin-block-start: 0.7em;
+        margin-block-end: 0.6em;
+    }
+    #menuOptions li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .active{
+        color: red;
+    }
+    .notActive{
+        display: none;
+    }
+    #menuOption1{
+        margin-left: 21vw;
+    }
+    #menuOption2{
+        margin-left: 26vw;
+        margin-top: 5.5vw;
+    }
+    #menuOption3{
+        margin-left: 33vw;
+        margin-top: 5.5vw;
+    }
+    #menuOption4{
+        margin-left: 45vw;
+        margin-top: 5.5vw;
+    }
+    #menuOption5{
+        margin-left: 66vw;
+        margin-top: 4.5vw;
     }
 }
